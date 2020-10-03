@@ -20,7 +20,7 @@ def lines_printed_backwards(lines_list):
         # printing it randomly
 from random import choice
 def lines_printed_random(lines_list):
-    lines_list = ['Bob', 'perfect', 'live', 'judge','pointing']
+    lines_list = ['Bob', 'perfect', 'live', 'judge','pointing' , 'i love money like no othere']
     for line in lines_list:
         print(choice(lines_list))
     pass
